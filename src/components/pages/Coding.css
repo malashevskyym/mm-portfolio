@@ -1,0 +1,15 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 250px 250px;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 960px) {
+  .project-grid {
+    grid-template-columns: 80%;
+    grid-template-rows: 150px 150px 150px 150px;
+  }
+}

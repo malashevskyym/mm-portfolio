@@ -1,0 +1,15 @@
+.typewriter-intro {
+  width: 100%;
+  height: 300px;
+  background-color: #557a95;
+  transition: background-color 5s linear;
+}
+.text-Box {
+  vertical-align: center;
+}
+.typewriter-text {
+  line-height: 150px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
