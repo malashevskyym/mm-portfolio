@@ -10,7 +10,7 @@ function Footer() {
         <>
            <nav className="footer">
                <div className="footer-container">
-                    <Link to="/" className="footer-logo"> 
+                    <Link to="/mm-portfolio" className="footer-logo"> 
                             Mark Malashevskyy | malashevskyy7@gmail.com
                     </Link>
                    <ul className='foot-menu'>
@@ -32,7 +32,7 @@ function Footer() {
                    </ul>
                    <div className='foot-m'>
                        <li>
-                            <Link to="/" className="footer-l" className= "foot-link"> 
+                            <Link to="/mm-portfolio" className="footer-l" className= "foot-link"> 
                                     Mark Malashevskyy | malashevskyy7@gmail.com
                             </Link>
                         </li>
