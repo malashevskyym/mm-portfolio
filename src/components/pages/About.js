@@ -9,7 +9,7 @@ const Home = () => {
         <div className = "aboutMePage">
             <div className= 'Me'>
                 <div className="g-left">
-                    <img className='abtme-img' src='images/PicMe.jpg' alt="This is where a picture of me goes" />
+                    <img className='abtme-img' src='images/PicMe.JPG' alt="This is where a picture of me goes" />
                 </div>
                 <div className="g-right">
                     <h2 className="abtme-title"> A little about me... </h2>
