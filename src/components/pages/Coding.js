@@ -37,7 +37,7 @@ const Coding = () => {
                 <MorePInfo name= "Portfolio" link="https://github.com/malashevskyym/mm-portfolio.git" description = "Used the React library to create a website demonstrating my projects and background." language = "JavaScript" tools="React" learned = "I learned the fundamentals of the React Library and creating reusable component-based design." ></MorePInfo>
             </CustomPopup>
             <CustomPopup onClose={popupCloseHandler2} show={visibility2}>
-                <MorePInfo name= "Music Database Selector" link="https://github.com/malashevskyym/project4.git" description = "Created a website that retrieved Album data and comments from users for a user elected band from a database." ></MorePInfo>
+                <MorePInfo name= "Music Database Selector" link="https://github.com/malashevskyym/project4.git" description = "Created a website that retrieved Album data and comments from users for a user elected band from a database." language= "JavaScript" tools="Express, MongoDB, Mongoose" learned="I learned how the back-end and front-end of a website interact to update the website based on user inputs" ></MorePInfo>
             </CustomPopup>
         </div>
     )
