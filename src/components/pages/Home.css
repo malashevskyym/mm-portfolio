@@ -1,5 +1,5 @@
 .container {
-  height: 400px;
+  min-height: calc(100vh - 170px);
   align-items: center;
   display: grid;
   text-align: center;

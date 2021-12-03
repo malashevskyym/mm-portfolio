@@ -1,8 +1,9 @@
 .aboutMePage {
-  height: 1000px;
+  min-height: calc(100vh - 60px);
 }
 .Me {
   display: grid;
+  width: 100%;
   grid-template-areas: "left right";
   grid-template-columns: repeat(auto-fit, 300px 40%);
   grid-template-rows: 400px;
@@ -16,7 +17,6 @@
   width: 100%;
   height: 100%;
   grid-area: left;
-  border-bottom: 1px solid;
 }
 .g-right {
   position: relative;
@@ -33,10 +33,20 @@
   width: 100%;
   height: 100%;
 }
+.detail-list {
+  width: 90%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.detail-list {
+  list-style: none;
+}
 .background {
-  position: relative;
+  margin: 0 auto;
   justify-content: center;
-  width: 100%;
+  position: relative;
+  width: 90%;
   display: grid;
   grid-template-areas: "left1 middle1 right1";
   grid-template-columns: repeat(auto-fit, 25% 25% 25%);
@@ -44,58 +54,47 @@
   margin-top: 50px;
   margin-bottom: 50px;
   gap: 30px;
-}
-.background-list {
-  text-align: left;
-  display: table;
-  margin: 0 auto;
-}
-.skills-list {
-  text-align: left;
-  display: table;
-  margin: 0 auto;
-  padding-left: 0px;
-}
-.experience-list {
-  text-align: left;
-  display: table;
-  margin: 0 auto;
-  padding-left: 15px;
+  text-align: center;
 }
 .background .g-l {
+  list-style: none;
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   grid-area: left1;
   border-right: 1px solid;
   border-left: 1px solid;
   border-radius: 25px;
   border-color: #557a95;
-  text-align: center;
+}
+h4 {
+  margin-bottom: 4px;
+  padding-bottom: 0px;
 }
 .background .g-r {
+  list-style: none;
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   grid-area: right1;
   border-left: 1px solid;
   border-right: 1px solid;
   border-radius: 25px;
   border-color: #557a95;
-  text-align: center;
 }
 .background .g-m {
+  list-style: none;
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   grid-area: middle1;
   border-right: 1px solid;
   border-left: 1px solid;
   border-radius: 25px;
   border-color: #557a95;
-  text-align: center;
 }
 .more-links {
+  width: 100%;
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #557a95;
@@ -106,4 +105,63 @@
 .resume-link {
   text-decoration: none;
   color: black;
+}
+@media screen and (max-width: 960px) {
+  .abtme-img {
+    display: block;
+    padding-top: 15px;
+    object-fit: cover;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+  }
+  .aboutMePage {
+    max-width: 100vw;
+  }
+  .Me {
+    display: block;
+    margin: 0 auto;
+  }
+  .g-right {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-left: none;
+    margin: 0 auto;
+  }
+  .g-left {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .background {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-rows: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 30px;
+  }
+  .g-r {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
+  .g-m {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
+  .g-l {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
 }

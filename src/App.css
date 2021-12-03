@@ -1,4 +1,9 @@
+.Router {
+  height: 100%;
+}
 .footer {
+  height: 60px;
+  padding-bottom: 10px;
   position: relative;
   bottom: 0;
   width: 100%;

@@ -10,13 +10,13 @@ function Footer() {
         <>
            <nav className="footer">
                <div className="footer-container">
-                   <Link to="/" className="footer-logo"> 
-                        Mark Malashevskyy | malashevskyy7@gmail.com
-                   </Link>
+                    <Link to="/" className="footer-logo"> 
+                            Mark Malashevskyy | malashevskyy7@gmail.com
+                    </Link>
                    <ul className='foot-menu'>
                        <li className='foot-item'>
                             <ExternalLink href='https://www.linkedin.com/in/mark-malashevskyy-5135131b5/'>
-                                <img className='foot-img' src="https://img.icons8.com/dotty/80/000000/linkedin.png" alt="Linked In"/>
+                                <img className='foot-img' src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="Linked In"/>
                             </ExternalLink>
                        </li>
                        <li className='foot-item'>
@@ -30,6 +30,32 @@ function Footer() {
                             </ExternalLink>
                        </li>
                    </ul>
+                   <div className='foot-m'>
+                       <li>
+                            <Link to="/" className="footer-l" className= "foot-link"> 
+                                    Mark Malashevskyy | malashevskyy7@gmail.com
+                            </Link>
+                        </li>
+                        <li className = "foot-links2">
+                            <li className='foot-i'>
+                                <ExternalLink href='https://www.linkedin.com/in/mark-malashevskyy-5135131b5/' className= "foot-link">
+                                    LinkedIn
+                                </ExternalLink>
+                            </li>
+                            <li>|</li>
+                            <li className='foot-i'>
+                                    <ExternalLink href='https://github.com/malashevskyym' className= "foot-link">
+                                        Github                           
+                                    </ExternalLink>   
+                            </li>
+                            <li>|</li>
+                            <li className='foot-i'>
+                                    <ExternalLink href='https://www.instagram.com/malashevskyy7/' className= "foot-link">
+                                        Instagram
+                                    </ExternalLink>
+                            </li>
+                        </li>
+                   </div>
                </div>
            </nav>
         </>

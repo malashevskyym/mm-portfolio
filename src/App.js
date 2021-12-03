@@ -11,7 +11,7 @@ import About from './components/pages/About';
 function App() {
   return (
     <>
-      <Router>
+      <Router className= "router">
         <Navbar />
         <Switch>
           <Route path='/' exact component= {Home}/>

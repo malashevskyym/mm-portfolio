@@ -1,11 +1,21 @@
 .project-grid {
   display: grid;
+  min-height: calc(100vh - 290px);
   grid-template-columns: 45% 45%;
   grid-template-rows: 250px 250px;
   gap: 15px;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+.button:visited {
+  color: rgb(0, 0, 0);
 }
 @media screen and (max-width: 960px) {
   .project-grid {

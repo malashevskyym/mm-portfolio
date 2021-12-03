@@ -9,20 +9,25 @@
   justify-content: center;
   align-items: center;
   font-size: 15px;
-  width: 100%;
+  max-width: 100%;
   left: 0;
   bottom: 0;
 }
 
 .footer-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, 65% 35%);
+  grid-template-areas: "left right";
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
 }
 
 .footer-logo {
+  position: absolute;
+  grid-area: left;
   color: black;
   justify-self: start;
   margin-left: 0px;
@@ -33,7 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  position: absolute;
+  text-align: left;
   bottom: 1;
   left: 0;
   transform: translate(10%, 50%);
@@ -45,19 +50,20 @@
 }
 
 .foot-menu {
+  position: absolute;
+  grid-area: right;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-gap: 10px;
+  grid-gap: 8px;
   list-style: none;
-  align-items: center;
-  justify-content: end;
+  justify-content: right;
   margin-top: 2rem;
-  margin-right: -18rem;
-  width: 70vw;
+  width: 50vw;
+  margin-right: -42%;
 }
 
 .foot-item {
-  height: 70%;
+  height: 100%;
 }
 
 .foot-img {
@@ -82,4 +88,39 @@
 .foot-icon {
   display: none;
   position: absolute;
+}
+.foot-m {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .foot-link:visited {
+    color: rgb(0, 0, 0);
+  }
+  .foot-link {
+    text-decoration: none;
+  }
+  .foot-m {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    list-style: none;
+    text-align: center;
+    gap: 10px;
+  }
+  .foot-menu {
+    display: none;
+  }
+  .footer-logo {
+    grid-area: bottom;
+    position: relative;
+    display: none;
+  }
+  .foot-links2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+  }
 }
