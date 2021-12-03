@@ -4,7 +4,7 @@ import './Coding.css'
 import CustomPopup from "../CustomPopup";
 import MorePInfo from '../MorePInfo';
 
-const Home = () => {
+const Coding = () => {
     const [visibility, setVisibility] = useState(false);
     const [visibility1, setVisibility1] = useState(false);
     const [visibility2, setVisibility2] = useState(false);
@@ -43,4 +43,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Coding

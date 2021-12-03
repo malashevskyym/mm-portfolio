@@ -3,7 +3,7 @@ import './About.css';
 import {ExternalLink} from 'react-external-link';
 
 
-const Home = () => {
+const About = () => {
     return (
         <>  
         <div className = "aboutMePage">
@@ -51,4 +51,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default About
