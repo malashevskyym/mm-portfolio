@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css';
 import {ExternalLink} from 'react-external-link';
-import Picture from 'images/PicMe.JPG'
 
 
 const About = () => {
@@ -10,7 +9,7 @@ const About = () => {
         <div className = "aboutMePage">
             <div className= 'Me'>
                 <div className="g-left">
-                    <img className='abtme-img' src={Picture} alt="This is where a picture of me goes" />
+                    <img className='abtme-img' src={`${process.env.PUBLIC_URL}/images/picMe.jpg`} alt="This is where a picture of me goes" />
                 </div>
                 <div className="g-right">
                     <h2 className="abtme-title"> A little about me... </h2>
