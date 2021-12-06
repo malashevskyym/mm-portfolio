@@ -25,12 +25,12 @@ function Navbar() {
         <>
            <nav className="navbar">
                <div className="navbar-container">
-                   <Link to="/mm-portfolio" className="navbar-logo"> 
-                        MM 
-                   </Link>
-                   <div className="menu-icon">
-                        <Hamburger toggled={click} toggle={setClick} easing="ease-in" duration={0.3} size={28} color="#000" />
-                   </div>
+                    <Link to="/mm-portfolio" className="navbar-logo"> 
+                            MM 
+                    </Link>
+                    <div className="menu-icon">
+                            <Hamburger toggled={click} toggle={setClick} easing="ease-in" duration={0.3} size={28} color="#000" />
+                    </div>
                    <div className={click ? 'nav-menu active':'nav-menu'}>
                        <li className='nav-item'>
                            <Link to='/mm-portfolio' className='nav-links'onClick={closeMobileMenu}> <p>Home</p> </Link>
