@@ -17,9 +17,8 @@
 
 .navbar-container {
   display: grid;
+  position: relative;
   width: 100%;
-  grid-template-columns: repeat(auto-fit, 10% 90% 10%);
-  grid-template-areas: "left center right";
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,19 +26,13 @@
 }
 
 .navbar-logo {
-  grid-area: left;
   color: black;
-  justify-self: start;
   cursor: pointer;
   text-decoration: none;
   font-size: 140%;
   display: flex;
-  align-items: center;
-  justify-content: left;
   position: absolute;
-  margin-top: -2rem;
   left: 1.5rem;
-  transform: translate(25%, 50%);
 }
 
 .fa-typo3 {
@@ -48,7 +41,6 @@
 }
 
 .nav-menu {
-  grid-area: right;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
@@ -86,7 +78,9 @@
 }
 
 .menu-icon {
+  position: relative;
   display: none;
+  grid-area: right3;
 }
 
 @media screen and (max-width: 960px) {
@@ -134,16 +128,10 @@
   }
 
   .menu-icon {
-    grid-area: right;
-    color: black;
     cursor: pointer;
-    font-size: 140%;
     display: flex;
-    align-items: center;
     position: absolute;
     right: 1.5rem;
-    top: 50%;
-    transform: translateY(-50%);
   }
 
   .fa-times {

@@ -1,3 +1,6 @@
+.projectPage {
+  height: fit-content;
+}
 .project-grid {
   display: grid;
   min-height: calc(100vh - 290px);
