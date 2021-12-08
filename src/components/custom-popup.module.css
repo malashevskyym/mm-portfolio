@@ -54,3 +54,129 @@
     width: 70%;
   }
 }
+.mInfo {
+  width: 69vw;
+  height: fit-content;
+}
+.container1 {
+  height: 19%;
+  position: relative;
+  margin: 0 auto;
+  max-width: 90%;
+  background: #fff;
+  border-radius: 4px;
+  border-bottom: 1px solid #999;
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: repeat(auto-fit, 90% 4%);
+  background-color: transparent;
+}
+.R {
+  display: flex;
+  align-items: flex-end;
+}
+.L {
+  display: flex;
+  align-items: flex-end;
+}
+.Project {
+  /* height: 10%; */
+  max-width: 100%;
+  top: 0cm;
+  grid-template-rows: 400px;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  gap: 5px;
+  text-align: center;
+}
+.gright {
+  max-width: 90%;
+  text-align: center;
+  position: relative;
+  height: fit-content;
+  grid-area: right;
+}
+.ProDetails {
+  height: 10%;
+  display: grid;
+  grid-template-areas:
+    "left1   right1"
+    "left2   right2"
+    "left3   right3";
+  grid-template-columns: repeat(auto-fit, 30% 50%);
+  justify-content: center;
+}
+.gright1 {
+  grid-area: right1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  justify-content: right;
+  gap: 30px;
+}
+.gleft1 {
+  grid-area: left1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 10px;
+}
+.gright2 {
+  grid-area: left2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 10px;
+}
+.gleft2 {
+  grid-area: right2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: right;
+  justify-content: right;
+  gap: 10px;
+}
+.gright3 {
+  grid-area: right3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: right;
+  justify-content: right;
+  gap: 10px;
+}
+.gleft3 {
+  grid-area: left3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 10px;
+}
+@media screen and (max-width: 700px) {
+  .container1 {
+    grid-template-columns: repeat(auto-fit, 80% 4%);
+  }
+}
+@media screen and (max-width: 600px) {
+  .ProDetails {
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+  .gright1 {
+    text-align: center;
+  }
+  .gleft2 {
+    text-align: center;
+  }
+  .gright3 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container1 {
+    grid-template-columns: repeat(auto-fit, 74% 4%);
+  }
+}
+@media screen and (max-width: 400px) {
+  .container1 {
+    grid-template-columns: repeat(auto-fit, 75% 4%);
+  }
+}
