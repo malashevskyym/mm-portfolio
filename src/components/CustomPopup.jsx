@@ -9,11 +9,9 @@ const CustomPopup = (props) => {
   return ReactDom.createPortal(
     <div className={popupStyles.overlay}>
       <div className={popupStyles.popup}>
-        <h2>{props.title}</h2>
         <span className={popupStyles.close} onClick={props.onClose}>
           &times;
         </span>
-        {/* <div className={popupStyles.content}> */}
         <div className = "mInfo">
             <div className= "container1">
                 <div className ="L">
@@ -55,7 +53,6 @@ const CustomPopup = (props) => {
                     <div className="gright3">
                         <p>{props.learned}</p>
                     </div>
-                {/* </div> */}
         </div>
         </div>
       </div>
