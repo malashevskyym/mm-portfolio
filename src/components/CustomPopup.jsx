@@ -13,7 +13,7 @@ const CustomPopup = (props) => {
         <span className={popupStyles.close} onClick={props.onClose}>
           &times;
         </span>
-        <div className={popupStyles.content}>
+        {/* <div className={popupStyles.content}> */}
         <div className = "mInfo">
             <div className= "container1">
                 <div className ="L">
@@ -55,7 +55,7 @@ const CustomPopup = (props) => {
                     <div className="gright3">
                         <p>{props.learned}</p>
                     </div>
-                </div>
+                {/* </div> */}
         </div>
         </div>
       </div>
