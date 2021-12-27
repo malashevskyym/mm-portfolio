@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import './Home.css'
 
 const Home = () => {
-    const words = ["Hey, my name is Mark Malashevskyy.", "Welcome to my Portfolio!!!"];
+    const words = ["Hey, my name is Mark Malashevskyy.", "Welcome to my Portfolio!"];
     const [index, setIndex] = useState(0);
     const [subIndex, setSubIndex] = useState(0);
     const [reverse, setReverse] = useState(false);
