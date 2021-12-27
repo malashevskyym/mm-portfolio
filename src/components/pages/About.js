@@ -18,7 +18,7 @@ const About = () => {
                 </div>
             </div>
             <div className= 'more-links'> 
-                <ExternalLink className= "resume-link" href="https://drive.google.com/file/d/1ol3Z896oHaJvNup2LNENBR-HrKD1JgZB/view?usp=sharing"> <h3> Resume </h3> </ExternalLink>
+                <ExternalLink className= "resume-link" href="https://drive.google.com/file/d/12RKohysqJJmZyTZFsApT1Q9BE0nJ6S0K/view?usp=sharing"> <h3> Resume </h3> </ExternalLink>
             </div>
             <div className= 'background'>
                 <div className="g-l">
