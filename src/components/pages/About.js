@@ -18,8 +18,8 @@ const About = () => {
                 </div>
             </div>
             <div className= 'more-links'> 
-                <ExternalLink className= "resume-link" href="https://drive.google.com/file/d/12RKohysqJJmZyTZFsApT1Q9BE0nJ6S0K/view?usp=sharing"> <h3> Resume </h3> </ExternalLink>
-            </div>
+                <ExternalLink className= "resume-link" href="https://drive.google.com/file/d/1CNjzBLaikUCevWOPK3kperfyMN_CdfAT/view?usp=sharing"> <h3> Resume </h3> </ExternalLink>
+            </div>                                       
             <div className= 'background'>
                 <div className="g-l">
                     <h2> Education </h2>
